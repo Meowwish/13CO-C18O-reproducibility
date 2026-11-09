@@ -1,0 +1,15 @@
+{
+  "release": "paper-e9e9d9e-20261109",
+  "bundle": "derived-particle-inputs",
+  "archive_sha256": "925182967e68c7fe73bf0c9b12d3a9b9121c77ba705f7c9c3af287dc621c9ca6",
+  "files": {
+    "x8_direct_validation_20261027/cache/part00.h5": "0bf54abb60a85bd762585bf28495452aa9aa9b9608e9b5ab320c73260e7aeac7",
+    "x8_direct_validation_20261027/cache/part01.h5": "2180f5d2a99e58aadc4e2d578df25e2b6d471c57e22379900d85a6ac941bc112",
+    "x8_direct_validation_20261027/cache/part02.h5": "07f89d59c4a77d0dcda6262f2dacbe591f3d386d57cb8e111db6c1b55ad2c1da",
+    "x8_direct_validation_20261027/cache/part03.h5": "e5be4fffb85b4e9723b5a34adb23f2e2d3b4df0c076bc571d05654d50a2b0028",
+    "x8_direct_validation_20261027/cache/part04.h5": "c4764a8ce05e359fd817f0dd41f9050c475225a3e111a347fd0d21741f3b7333",
+    "x8_direct_validation_20261027/cache/part05.h5": "7a61bed50d1f20d875a56472d1d650a46a04586b4a43573e0c258c4c2aa27d8f",
+    "x8_direct_validation_20261027/cache/part06.h5": "c9d5c631dd0c0dfb273194f0c097ac3cb2179a529331cdaffba593e24d0aad32",
+    "x8_direct_validation_20261027/cache/part07.h5": "fcc1d32936681ab29e1ada2430796b687ec2661abecc9d5ba6385223dc0cc7d4"
+  }
+}

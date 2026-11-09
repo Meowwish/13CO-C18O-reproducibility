@@ -1,7 +1,7 @@
 {
   "release": "paper-e9e9d9e-20261109",
   "lightweight_reproduction": "passed",
-  "large_data_packaging": "submitted; checksums/payload verification pending",
+  "large_data_packaging": "passed: all four durable bundles and payload hashes verified",
   "clean_cached_reference_model_replay": "submitted; depends on all four archives",
   "science_followup": "submitted, results require assessment",
   "upstream_RoSE_included": false,

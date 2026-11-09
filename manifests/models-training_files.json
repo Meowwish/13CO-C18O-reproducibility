@@ -1,0 +1,12 @@
+{
+  "release": "paper-e9e9d9e-20261109",
+  "bundle": "models-training",
+  "archive_sha256": "15b44c47a1008de7c107ca37178392da27a2d63bfa36deef020e1390a94562e3",
+  "files": {
+    "chemTable_temporal_550_575/final_test_600/frozen_surrogate.joblib": "caf59d06b627ae296f3a4f1430907a0e8b3be027365f76367972cb55e4c059ae",
+    "chemTable_temporal_550_575/training_550_575/direct_inputs_550_575.h5": "6a6c6d18455b07c5acf8bda5fc0ca9d054219234279fdea2fb213f3e65ff3be7",
+    "chemTable_temporal_550_575/training_550_575/direct_results_550_575.h5": "f921994900d2b63c8149bade9a0a2ead90810218f1e0aaf9c642e2efd1ab9f00",
+    "chemTable_temporal_550_575/training_550_575/validation_rows_550_575.h5": "13648344f693d195d796a3462956b1935a1cbb90807d2e07b490cdd9858075b4",
+    "isotope_fractionation_controls/intervention_models/residual_leaves15.joblib": "756345b821a8bec3ffb779f2275b8bd5d61e81799f7ba2e727729b31c88333eb"
+  }
+}

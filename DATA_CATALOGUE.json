@@ -9,29 +9,45 @@
       "id": "cached-validation",
       "bytes": 1321336853,
       "files": 202,
-      "archive_status": "submitted for payload and SHA256 verification",
-      "pbs_job": "183572185.gadi-pbs"
+      "archive_status": "archived and payload-verified",
+      "pbs_job": "183572185.gadi-pbs",
+      "archive_sha256": "b013ecfe5ed0eb502d421dc32170356a9d137ddf4611d9820753240c18583555",
+      "archive_bytes": 1327534080,
+      "archive_file": "cached-validation.tar",
+      "verified_payload_files": 395
     },
     {
       "id": "derived-particle-inputs",
       "bytes": 17443948240,
       "files": 8,
-      "archive_status": "submitted for payload and SHA256 verification",
-      "pbs_job": "183572186.gadi-pbs"
+      "archive_status": "archived and payload-verified",
+      "pbs_job": "183572186.gadi-pbs",
+      "archive_sha256": "925182967e68c7fe73bf0c9b12d3a9b9121c77ba705f7c9c3af287dc621c9ca6",
+      "archive_bytes": 17443962880,
+      "archive_file": "derived-particle-inputs.tar",
+      "verified_payload_files": 8
     },
     {
       "id": "maps",
       "bytes": 4669533964,
       "files": 29,
-      "archive_status": "submitted for payload and SHA256 verification",
-      "pbs_job": "183572187.gadi-pbs"
+      "archive_status": "archived and payload-verified",
+      "pbs_job": "183572187.gadi-pbs",
+      "archive_sha256": "b19e5584ebadc3568302e98e010bcb9922b49047fdf6ae460a3d93f7be0af66d",
+      "archive_bytes": 4669573120,
+      "archive_file": "maps.tar",
+      "verified_payload_files": 29
     },
     {
       "id": "models-training",
       "bytes": 1818275066,
       "files": 5,
-      "archive_status": "submitted for payload and SHA256 verification",
-      "pbs_job": "183572188.gadi-pbs"
+      "archive_status": "archived and payload-verified",
+      "pbs_job": "183572188.gadi-pbs",
+      "archive_sha256": "15b44c47a1008de7c107ca37178392da27a2d63bfa36deef020e1390a94562e3",
+      "archive_bytes": 1818286080,
+      "archive_file": "models-training.tar",
+      "verified_payload_files": 5
     }
   ],
   "request": "Email the release ID and required bundle IDs. Per-file SHA256 manifests and archive SHA256 are supplied with the bundles."
