@@ -19,7 +19,10 @@ for small-table reconstruction; see [REPRODUCING.md](REPRODUCING.md) for cached
 reference/model replay and [DATA_ACCESS.md](DATA_ACCESS.md) for the requested
 Gadi bundles. `FILE_SHA256.json` identifies the committed files.
 
-The large-data packaging and clean replay are scheduled separately on PBS;
-their current state is recorded in `RELEASE_STATUS.json`. Pending scientific
-follow-ups are labelled under `ongoing/` and do not count as completed
-validations or change the published numerical results of this release.
+All four Gadi data archives passed payload and checksum verification. A clean
+requested-data replay passed the global-integral reconstruction, 1064 and 1220
+independent interval checks, six frozen models on 32,768 particles, and all
+2352 selected-statistic records. See `results/clean_replay_report.json` and
+`RELEASE_STATUS.json`. These are numerical reproduction checks, not physical
+accuracy claims. Pending new scientific follow-ups are labelled under `ongoing/`
+and do not change the accepted numerical results of this release.

@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "steps": [
+    {
+      "program": "global_ratios.py",
+      "exit_code": 0
+    },
+    {
+      "program": "reproduce.py",
+      "exit_code": 0
+    },
+    {
+      "program": "reproduce.py",
+      "exit_code": 0
+    },
+    {
+      "program": "query_models.py",
+      "exit_code": 0
+    },
+    {
+      "program": "replay_selection.py",
+      "exit_code": 0
+    }
+  ],
+  "release": "paper-e9e9d9e-20261109",
+  "replayed_selected_statistics": 2352,
+  "upstream_RoSE_required": false,
+  "workflow_manifest_sha256": "b08e0033f5fd7e70870ec252ce44198aeecf618cc90cffda8b657e186636c2c9",
+  "original_interval_sets_reconstructed": [
+    1064,
+    1220
+  ],
+  "frozen_model_particles": 32768,
+  "frozen_model_outputs": 6,
+  "frozen_model_branches": 6
+}
