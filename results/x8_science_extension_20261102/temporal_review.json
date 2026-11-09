@@ -1,0 +1,288 @@
+{
+  "manifest_sha256": "65ced39d2462c4e799a2059e07226a0a879a849ac2727ab63bf018d8f5e3a922",
+  "epochs": 25,
+  "time_span_Myr": [
+    652.9999999999933,
+    676.999999999939
+  ],
+  "source_full_field_extrema": {
+    "min": 0.7791801211805579,
+    "median": 0.7830658026307449,
+    "max": 0.7962288804974798
+  },
+  "source_inner_extrema": {
+    "min": 0.7778966821496648,
+    "median": 0.7832687435232487,
+    "max": 0.7925134999232267
+  },
+  "source_below_one_count": [
+    25,
+    25,
+    25,
+    25,
+    25,
+    25,
+    25,
+    25,
+    25
+  ],
+  "exchange_full_field_extrema": {
+    "min": 1.257388954807235,
+    "median": 1.2750133968470545,
+    "max": 1.2939788505712653
+  },
+  "exchange_inner_extrema": {
+    "min": 1.2619041291735666,
+    "median": 1.2754647605220317,
+    "max": 1.2980573157918218
+  },
+  "exchange_above_one_count": [
+    25,
+    25,
+    25,
+    25,
+    25,
+    25,
+    25,
+    25,
+    25
+  ],
+  "radial_strict_increase_count": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "radial_strict_decrease_count": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "minimum_99pct_coverage_models_and_regions": [
+    [
+      25,
+      15,
+      23,
+      23,
+      24,
+      23
+    ],
+    [
+      25,
+      23,
+      24,
+      24,
+      24,
+      24
+    ],
+    [
+      23,
+      11,
+      23,
+      23,
+      23,
+      23
+    ],
+    [
+      25,
+      25,
+      25,
+      25,
+      25,
+      25
+    ],
+    [
+      25,
+      25,
+      25,
+      25,
+      25,
+      25
+    ],
+    [
+      25,
+      25,
+      25,
+      25,
+      25,
+      25
+    ],
+    [
+      24,
+      13,
+      19,
+      19,
+      16,
+      16
+    ],
+    [
+      25,
+      22,
+      25,
+      25,
+      25,
+      25
+    ],
+    [
+      25,
+      14,
+      25,
+      25,
+      25,
+      25
+    ]
+  ],
+  "oxygen_scale_extrema": {
+    "min": 2.057162862457903,
+    "median": 2.063407644132685,
+    "max": 2.064941241015373
+  },
+  "sfr_slopes": [
+    {
+      "branch": "Full",
+      "window_Myr": 1,
+      "method": "whole",
+      "complete_window_extrema": {
+        "min": -0.1198557285111137,
+        "median": -0.10423807330061888,
+        "max": -0.08292894163017843
+      },
+      "complete_window_negative": 25,
+      "excluded_unknown_formation_mass_epochs": []
+    },
+    {
+      "branch": "Full",
+      "window_Myr": 1,
+      "method": "fixed_effect",
+      "complete_window_extrema": {
+        "min": -0.11991417947735286,
+        "median": -0.10467537464029307,
+        "max": -0.07952195502249466
+      },
+      "complete_window_negative": 25,
+      "excluded_unknown_formation_mass_epochs": []
+    },
+    {
+      "branch": "Full",
+      "window_Myr": 10,
+      "method": "whole",
+      "complete_window_extrema": {
+        "min": -0.13450133180185161,
+        "median": -0.12281226903712897,
+        "max": -0.08948202390978843
+      },
+      "complete_window_negative": 16,
+      "excluded_unknown_formation_mass_epochs": [
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557,
+        558,
+        559
+      ]
+    },
+    {
+      "branch": "Full",
+      "window_Myr": 10,
+      "method": "fixed_effect",
+      "complete_window_extrema": {
+        "min": -0.13421717935656224,
+        "median": -0.12112857066714035,
+        "max": -0.09147290287848056
+      },
+      "complete_window_negative": 16,
+      "excluded_unknown_formation_mass_epochs": [
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557,
+        558,
+        559
+      ]
+    },
+    {
+      "branch": "SLUG",
+      "window_Myr": 1,
+      "method": "whole",
+      "complete_window_extrema": {
+        "min": -0.12047912851080293,
+        "median": -0.1011606793462907,
+        "max": -0.0804238848137218
+      },
+      "complete_window_negative": 25,
+      "excluded_unknown_formation_mass_epochs": []
+    },
+    {
+      "branch": "SLUG",
+      "window_Myr": 1,
+      "method": "fixed_effect",
+      "complete_window_extrema": {
+        "min": -0.11678624033199156,
+        "median": -0.09945012296383082,
+        "max": -0.07846481801650729
+      },
+      "complete_window_negative": 25,
+      "excluded_unknown_formation_mass_epochs": []
+    },
+    {
+      "branch": "SLUG",
+      "window_Myr": 10,
+      "method": "whole",
+      "complete_window_extrema": {
+        "min": -0.13500413425698446,
+        "median": -0.12214730917391119,
+        "max": -0.08969141449192608
+      },
+      "complete_window_negative": 16,
+      "excluded_unknown_formation_mass_epochs": [
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557,
+        558,
+        559
+      ]
+    },
+    {
+      "branch": "SLUG",
+      "window_Myr": 10,
+      "method": "fixed_effect",
+      "complete_window_extrema": {
+        "min": -0.13259440482658638,
+        "median": -0.11952371988933805,
+        "max": -0.09510596494923325
+      },
+      "complete_window_negative": 16,
+      "excluded_unknown_formation_mass_epochs": [
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557,
+        558,
+        559
+      ]
+    }
+  ],
+  "replay575": [
+    4.821637332766168e-14,
+    4.3973332474827667e-14
+  ],
+  "scope": "All consecutive outputs retained; temporally correlated, no independent-epoch standard error or evolutionary generalization. Frozen-surrogate predictions only."
+}

@@ -1,0 +1,49 @@
+{
+  "model_order": [
+    "production_full",
+    "production_slug",
+    "actual_on",
+    "actual_off",
+    "uniform_on",
+    "uniform_off"
+  ],
+  "complete_frame_line_integrals": [
+    [
+      3.473904610632174e+36,
+      5.041829963159153e+35,
+      6.028322555639733e+34
+    ],
+    [
+      3.5561689052075256e+36,
+      3.3023939135667088e+35,
+      5.031871134499807e+34
+    ],
+    [
+      3.4772377222620996e+36,
+      5.0989699840440226e+35,
+      6.104998074705895e+34
+    ],
+    [
+      3.558688337003282e+36,
+      4.0055645801340585e+35,
+      6.099775219267677e+34
+    ],
+    [
+      3.478176022759499e+36,
+      4.735429825103897e+35,
+      6.051373841615626e+34
+    ],
+    [
+      3.5545876822563475e+36,
+      3.6663132795597704e+35,
+      6.046818854734887e+34
+    ]
+  ],
+  "frequencies_Hz": [
+    115271201800.0,
+    110201354300.0,
+    109782173400.0
+  ],
+  "reference": "x8_bounded_reference_20261101/sample.h5:predicted_beam_totals[0]",
+  "scope": "Complete-frame saved integrals; independent particle replay requires requested bundles."
+}

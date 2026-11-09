@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "joint_total_components": 29088,
+  "maximum_relative_total_difference": 1.594947221738491e-13,
+  "maximum_absolute_covariance_difference": 8.639736061993863e-20,
+  "review_sha256": "374d7a15680dd99c2e3a1878b83d30d68891dd1b856ba6f6491aad858a56cbba",
+  "scope": "Independent stratum accumulation of totals and full cross-line/model covariance."
+}

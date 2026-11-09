@@ -1,0 +1,290 @@
+{
+  "slopes": [
+    {
+      "window_Myr": 1,
+      "radial": 0,
+      "model": "production_full",
+      "slope": -0.10441677646718517,
+      "spatial_jackknife": 0.00841622486900381
+    },
+    {
+      "window_Myr": 1,
+      "radial": 0,
+      "model": "production_slug",
+      "slope": -0.10433188439892906,
+      "spatial_jackknife": 0.00973661233029398
+    },
+    {
+      "window_Myr": 1,
+      "radial": 0,
+      "model": "actual_on",
+      "slope": -0.10396198689920769,
+      "spatial_jackknife": 0.007815145946867788
+    },
+    {
+      "window_Myr": 1,
+      "radial": 0,
+      "model": "actual_off",
+      "slope": -0.07509342646254802,
+      "spatial_jackknife": 0.005882490047894813
+    },
+    {
+      "window_Myr": 1,
+      "radial": 0,
+      "model": "uniform_on",
+      "slope": -0.10277220030113779,
+      "spatial_jackknife": 0.007054361853853145
+    },
+    {
+      "window_Myr": 1,
+      "radial": 0,
+      "model": "uniform_off",
+      "slope": -0.0725827703680678,
+      "spatial_jackknife": 0.004916744627864622
+    },
+    {
+      "window_Myr": 1,
+      "radial": "fixed_effect",
+      "model": "production_full",
+      "slope": -0.11042124685966272,
+      "spatial_jackknife": 0.007527781916531539
+    },
+    {
+      "window_Myr": 1,
+      "radial": "fixed_effect",
+      "model": "production_slug",
+      "slope": -0.10921558949538568,
+      "spatial_jackknife": 0.00872562447281173
+    },
+    {
+      "window_Myr": 1,
+      "radial": "fixed_effect",
+      "model": "actual_on",
+      "slope": -0.11106194756832508,
+      "spatial_jackknife": 0.007216201787420563
+    },
+    {
+      "window_Myr": 1,
+      "radial": "fixed_effect",
+      "model": "actual_off",
+      "slope": -0.08154380602196898,
+      "spatial_jackknife": 0.006150804011201762
+    },
+    {
+      "window_Myr": 1,
+      "radial": "fixed_effect",
+      "model": "uniform_on",
+      "slope": -0.10720136793618247,
+      "spatial_jackknife": 0.004810849762175999
+    },
+    {
+      "window_Myr": 1,
+      "radial": "fixed_effect",
+      "model": "uniform_off",
+      "slope": -0.07649578634729311,
+      "spatial_jackknife": 0.003381023369402151
+    },
+    {
+      "window_Myr": 10,
+      "radial": 0,
+      "model": "production_full",
+      "slope": -0.124027787743178,
+      "spatial_jackknife": 0.011671811574515654
+    },
+    {
+      "window_Myr": 10,
+      "radial": 0,
+      "model": "production_slug",
+      "slope": -0.12306852236753896,
+      "spatial_jackknife": 0.013371973025012666
+    },
+    {
+      "window_Myr": 10,
+      "radial": 0,
+      "model": "actual_on",
+      "slope": -0.12242211015054137,
+      "spatial_jackknife": 0.011027008139782381
+    },
+    {
+      "window_Myr": 10,
+      "radial": 0,
+      "model": "actual_off",
+      "slope": -0.08592861959836004,
+      "spatial_jackknife": 0.008186795016604246
+    },
+    {
+      "window_Myr": 10,
+      "radial": 0,
+      "model": "uniform_on",
+      "slope": -0.12016662899827174,
+      "spatial_jackknife": 0.01030674812611856
+    },
+    {
+      "window_Myr": 10,
+      "radial": 0,
+      "model": "uniform_off",
+      "slope": -0.08259076113520797,
+      "spatial_jackknife": 0.007480124190583912
+    },
+    {
+      "window_Myr": 10,
+      "radial": "fixed_effect",
+      "model": "production_full",
+      "slope": -0.12492347390861169,
+      "spatial_jackknife": 0.01126713138654624
+    },
+    {
+      "window_Myr": 10,
+      "radial": "fixed_effect",
+      "model": "production_slug",
+      "slope": -0.1223632455554042,
+      "spatial_jackknife": 0.013614189486925367
+    },
+    {
+      "window_Myr": 10,
+      "radial": "fixed_effect",
+      "model": "actual_on",
+      "slope": -0.125554853552848,
+      "spatial_jackknife": 0.011034995764327999
+    },
+    {
+      "window_Myr": 10,
+      "radial": "fixed_effect",
+      "model": "actual_off",
+      "slope": -0.0895175616130895,
+      "spatial_jackknife": 0.009342905201671511
+    },
+    {
+      "window_Myr": 10,
+      "radial": "fixed_effect",
+      "model": "uniform_on",
+      "slope": -0.12162107119960336,
+      "spatial_jackknife": 0.007908154048485671
+    },
+    {
+      "window_Myr": 10,
+      "radial": "fixed_effect",
+      "model": "uniform_off",
+      "slope": -0.08475192549165388,
+      "spatial_jackknife": 0.006457070612556117
+    }
+  ],
+  "paired_slope_differences": [
+    {
+      "window_Myr": 1,
+      "radial": 0,
+      "comparison": "exchange",
+      "slope_difference": -0.028868560436659668,
+      "paired_spatial_jackknife": 0.0026079886313756626
+    },
+    {
+      "window_Myr": 1,
+      "radial": 0,
+      "comparison": "uniform_exchange",
+      "slope_difference": -0.030189429933069986,
+      "paired_spatial_jackknife": 0.0027594644226737936
+    },
+    {
+      "window_Myr": 1,
+      "radial": 0,
+      "comparison": "pattern_on",
+      "slope_difference": -0.0011897865980698974,
+      "paired_spatial_jackknife": 0.003172762023344256
+    },
+    {
+      "window_Myr": 1,
+      "radial": 0,
+      "comparison": "pattern_off",
+      "slope_difference": -0.0025106560944802153,
+      "paired_spatial_jackknife": 0.002903296848546966
+    },
+    {
+      "window_Myr": 1,
+      "radial": "fixed_effect",
+      "comparison": "exchange",
+      "slope_difference": -0.029518141546356097,
+      "paired_spatial_jackknife": 0.0017195454863350463
+    },
+    {
+      "window_Myr": 1,
+      "radial": "fixed_effect",
+      "comparison": "uniform_exchange",
+      "slope_difference": -0.030705581588889364,
+      "paired_spatial_jackknife": 0.0017797144212565287
+    },
+    {
+      "window_Myr": 1,
+      "radial": "fixed_effect",
+      "comparison": "pattern_on",
+      "slope_difference": -0.003860579632142605,
+      "paired_spatial_jackknife": 0.003880230419338534
+    },
+    {
+      "window_Myr": 1,
+      "radial": "fixed_effect",
+      "comparison": "pattern_off",
+      "slope_difference": -0.0050480196746758715,
+      "paired_spatial_jackknife": 0.003694570889941306
+    },
+    {
+      "window_Myr": 10,
+      "radial": 0,
+      "comparison": "exchange",
+      "slope_difference": -0.03649349055218133,
+      "paired_spatial_jackknife": 0.0034664985813420233
+    },
+    {
+      "window_Myr": 10,
+      "radial": 0,
+      "comparison": "uniform_exchange",
+      "slope_difference": -0.03757586786306377,
+      "paired_spatial_jackknife": 0.003691904203195517
+    },
+    {
+      "window_Myr": 10,
+      "radial": 0,
+      "comparison": "pattern_on",
+      "slope_difference": -0.002255481152269631,
+      "paired_spatial_jackknife": 0.0035598122882302455
+    },
+    {
+      "window_Myr": 10,
+      "radial": 0,
+      "comparison": "pattern_off",
+      "slope_difference": -0.0033378584631520714,
+      "paired_spatial_jackknife": 0.0031530464579631076
+    },
+    {
+      "window_Myr": 10,
+      "radial": "fixed_effect",
+      "comparison": "exchange",
+      "slope_difference": -0.036037291939758506,
+      "paired_spatial_jackknife": 0.0019392452098537097
+    },
+    {
+      "window_Myr": 10,
+      "radial": "fixed_effect",
+      "comparison": "uniform_exchange",
+      "slope_difference": -0.03686914570794948,
+      "paired_spatial_jackknife": 0.0017799411830662455
+    },
+    {
+      "window_Myr": 10,
+      "radial": "fixed_effect",
+      "comparison": "pattern_on",
+      "slope_difference": -0.0039337823532446525,
+      "paired_spatial_jackknife": 0.004302550708466718
+    },
+    {
+      "window_Myr": 10,
+      "radial": "fixed_effect",
+      "comparison": "pattern_off",
+      "slope_difference": -0.004765636121435629,
+      "paired_spatial_jackknife": 0.004098865547582472
+    }
+  ],
+  "fixed_eligible_bins": true,
+  "sector_count": 12,
+  "common_footprint": true,
+  "scope": "Frozen surrogate maps; spatial jackknife is not physical-model or reference uncertainty."
+}

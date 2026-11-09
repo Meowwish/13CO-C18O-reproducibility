@@ -1,0 +1,523 @@
+{
+  "source": "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/chemTable_temporal_550_575/final_test_600/projected/snapshot600_temporal_maps.npz",
+  "model_sha256": "caf59d06b627ae296f3a4f1430907a0e8b3be027365f76367972cb55e4c059ae",
+  "counts": [
+    {
+      "depth": 1,
+      "selection": "dual",
+      "total": 58489,
+      "direct": 0,
+      "lookup": 0,
+      "both": 0,
+      "missed": 0,
+      "additional": 0,
+      "confusion_dual_categories": [
+        [
+          58412,
+          4,
+          0,
+          0
+        ],
+        [
+          2,
+          71,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "depth": 1,
+      "selection": "dual_and_ratio_snr",
+      "total": 58489,
+      "direct": 0,
+      "lookup": 0,
+      "both": 0,
+      "missed": 0,
+      "additional": 0,
+      "confusion_dual_categories": [
+        [
+          58412,
+          4,
+          0,
+          0
+        ],
+        [
+          2,
+          71,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "depth": 10,
+      "selection": "dual",
+      "total": 58489,
+      "direct": 256,
+      "lookup": 259,
+      "both": 251,
+      "missed": 5,
+      "additional": 8,
+      "confusion_dual_categories": [
+        [
+          56742,
+          35,
+          0,
+          0
+        ],
+        [
+          18,
+          1430,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          251
+        ]
+      ]
+    },
+    {
+      "depth": 10,
+      "selection": "dual_and_ratio_snr",
+      "total": 58489,
+      "direct": 248,
+      "lookup": 250,
+      "both": 243,
+      "missed": 5,
+      "additional": 7,
+      "confusion_dual_categories": [
+        [
+          56742,
+          35,
+          0,
+          0
+        ],
+        [
+          18,
+          1430,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          251
+        ]
+      ]
+    },
+    {
+      "depth": 100,
+      "selection": "dual",
+      "total": 58489,
+      "direct": 2043,
+      "lookup": 2058,
+      "both": 2025,
+      "missed": 18,
+      "additional": 33,
+      "confusion_dual_categories": [
+        [
+          53105,
+          52,
+          0,
+          0
+        ],
+        [
+          30,
+          3226,
+          0,
+          33
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          18,
+          0,
+          2025
+        ]
+      ]
+    },
+    {
+      "depth": 100,
+      "selection": "dual_and_ratio_snr",
+      "total": 58489,
+      "direct": 2026,
+      "lookup": 2045,
+      "both": 2009,
+      "missed": 17,
+      "additional": 36,
+      "confusion_dual_categories": [
+        [
+          53105,
+          52,
+          0,
+          0
+        ],
+        [
+          30,
+          3226,
+          0,
+          33
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          18,
+          0,
+          2025
+        ]
+      ]
+    },
+    {
+      "depth": 1000,
+      "selection": "dual",
+      "total": 58489,
+      "direct": 4788,
+      "lookup": 4802,
+      "both": 4752,
+      "missed": 36,
+      "additional": 50,
+      "confusion_dual_categories": [
+        [
+          48810,
+          53,
+          0,
+          0
+        ],
+        [
+          55,
+          4733,
+          0,
+          50
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          36,
+          0,
+          4752
+        ]
+      ]
+    },
+    {
+      "depth": 1000,
+      "selection": "dual_and_ratio_snr",
+      "total": 58489,
+      "direct": 4775,
+      "lookup": 4787,
+      "both": 4736,
+      "missed": 39,
+      "additional": 51,
+      "confusion_dual_categories": [
+        [
+          48810,
+          53,
+          0,
+          0
+        ],
+        [
+          55,
+          4733,
+          0,
+          50
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          36,
+          0,
+          4752
+        ]
+      ]
+    },
+    {
+      "depth": 10000,
+      "selection": "dual",
+      "total": 58489,
+      "direct": 7838,
+      "lookup": 7867,
+      "both": 7791,
+      "missed": 47,
+      "additional": 76,
+      "confusion_dual_categories": [
+        [
+          44121,
+          65,
+          0,
+          0
+        ],
+        [
+          77,
+          6312,
+          0,
+          76
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          47,
+          0,
+          7791
+        ]
+      ]
+    },
+    {
+      "depth": 10000,
+      "selection": "dual_and_ratio_snr",
+      "total": 58489,
+      "direct": 7826,
+      "lookup": 7856,
+      "both": 7782,
+      "missed": 44,
+      "additional": 74,
+      "confusion_dual_categories": [
+        [
+          44121,
+          65,
+          0,
+          0
+        ],
+        [
+          77,
+          6312,
+          0,
+          76
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          47,
+          0,
+          7791
+        ]
+      ]
+    },
+    {
+      "depth": 100000,
+      "selection": "dual",
+      "total": 58489,
+      "direct": 11551,
+      "lookup": 11592,
+      "both": 11507,
+      "missed": 44,
+      "additional": 85,
+      "confusion_dual_categories": [
+        [
+          39226,
+          62,
+          0,
+          0
+        ],
+        [
+          99,
+          7466,
+          0,
+          85
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          44,
+          0,
+          11507
+        ]
+      ]
+    },
+    {
+      "depth": 100000,
+      "selection": "dual_and_ratio_snr",
+      "total": 58489,
+      "direct": 11546,
+      "lookup": 11581,
+      "both": 11502,
+      "missed": 44,
+      "additional": 79,
+      "confusion_dual_categories": [
+        [
+          39226,
+          62,
+          0,
+          0
+        ],
+        [
+          99,
+          7466,
+          0,
+          85
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          44,
+          0,
+          11507
+        ]
+      ]
+    },
+    {
+      "depth": 1000000,
+      "selection": "dual",
+      "total": 58489,
+      "direct": 16519,
+      "lookup": 16524,
+      "both": 16443,
+      "missed": 76,
+      "additional": 81,
+      "confusion_dual_categories": [
+        [
+          34267,
+          75,
+          0,
+          0
+        ],
+        [
+          80,
+          7467,
+          0,
+          81
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          76,
+          0,
+          16443
+        ]
+      ]
+    },
+    {
+      "depth": 1000000,
+      "selection": "dual_and_ratio_snr",
+      "total": 58489,
+      "direct": 16514,
+      "lookup": 16520,
+      "both": 16439,
+      "missed": 75,
+      "additional": 81,
+      "confusion_dual_categories": [
+        [
+          34267,
+          75,
+          0,
+          0
+        ],
+        [
+          80,
+          7467,
+          0,
+          81
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          76,
+          0,
+          16443
+        ]
+      ]
+    }
+  ],
+  "source_size_bytes": 102160723,
+  "beam_pc": 125,
+  "sampling_pc": 62.5,
+  "notes": [
+    "No retraining or model selection; no new DESPOTIC calculation.",
+    "Full-mixture original-600 validation only; does not directly validate x8 or SLUG-only.",
+    "Categories 0=neither, 1=13CO only, 2=C18O only, 3=both.",
+    "R<1 and R>=8 kpc exploratory. First bin excludes R<0.5.",
+    "At least 10 samples required in both estimates; unavailable statistics remain NaN in CSV.",
+    "Jackknife leaves out 12 matched azimuthal sectors and measures spatial variability of bias.",
+    "Direct-mask fraction difference is zero by construction.",
+    "No random noise, spectral mask, new accuracy threshold, or automatic acceptance claim."
+  ]
+}

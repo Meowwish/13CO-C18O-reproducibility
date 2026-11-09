@@ -1,0 +1,84 @@
+{
+  "release": "paper-e9e9d9e-20261109",
+  "lightweight_reproduction": "passed",
+  "large_data_packaging": "submitted; checksums/payload verification pending",
+  "clean_cached_reference_model_replay": "submitted; depends on all four archives",
+  "science_followup": "submitted, results require assessment",
+  "upstream_RoSE_included": false,
+  "storage_jobs": [
+    {
+      "job_id": "183572185.gadi-pbs",
+      "stage": "archive",
+      "bundle": "cached-validation",
+      "variables": {
+        "STAGE": "archive",
+        "BUNDLE": "cached-validation"
+      },
+      "ncpus": 8,
+      "mem_GB": 32,
+      "jobfs_GB": 2,
+      "walltime": "04:00:00",
+      "dependencies": []
+    },
+    {
+      "job_id": "183572186.gadi-pbs",
+      "stage": "archive",
+      "bundle": "derived-particle-inputs",
+      "variables": {
+        "STAGE": "archive",
+        "BUNDLE": "derived-particle-inputs"
+      },
+      "ncpus": 8,
+      "mem_GB": 32,
+      "jobfs_GB": 2,
+      "walltime": "04:00:00",
+      "dependencies": []
+    },
+    {
+      "job_id": "183572187.gadi-pbs",
+      "stage": "archive",
+      "bundle": "maps",
+      "variables": {
+        "STAGE": "archive",
+        "BUNDLE": "maps"
+      },
+      "ncpus": 8,
+      "mem_GB": 32,
+      "jobfs_GB": 2,
+      "walltime": "04:00:00",
+      "dependencies": []
+    },
+    {
+      "job_id": "183572188.gadi-pbs",
+      "stage": "archive",
+      "bundle": "models-training",
+      "variables": {
+        "STAGE": "archive",
+        "BUNDLE": "models-training"
+      },
+      "ncpus": 8,
+      "mem_GB": 32,
+      "jobfs_GB": 2,
+      "walltime": "04:00:00",
+      "dependencies": []
+    },
+    {
+      "job_id": "183572189.gadi-pbs",
+      "stage": "replay",
+      "bundle": null,
+      "variables": {
+        "STAGE": "replay"
+      },
+      "ncpus": 8,
+      "mem_GB": 64,
+      "jobfs_GB": 20,
+      "walltime": "04:00:00",
+      "dependencies": [
+        "183572185.gadi-pbs",
+        "183572186.gadi-pbs",
+        "183572187.gadi-pbs",
+        "183572188.gadi-pbs"
+      ]
+    }
+  ]
+}

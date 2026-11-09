@@ -1,0 +1,408 @@
+{
+  "complete": true,
+  "manifest_sha256": "ee688bdfcde79f081cbd17c86b038b5302cbd774bb829cc3b43ca64260447f3a",
+  "records": [
+    {
+      "branch": "actual_on",
+      "region": "full_field",
+      "line": "13CO",
+      "out_of_carbon_table_light_fraction": 0.6729419413454304,
+      "molecular_lookup_differs_fraction": 0.5832931007358892,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        -0.07807387592232827,
+        -0.0009525971730211776,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.08825829192951784,
+        -0.06613008638288818,
+        -0.025396866929254715,
+        -0.012000019646641186
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.2674333287158117
+    },
+    {
+      "branch": "actual_on",
+      "region": "full_field",
+      "line": "C18O",
+      "out_of_carbon_table_light_fraction": 0.764413856878566,
+      "molecular_lookup_differs_fraction": 0.3139381865798,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        -0.009757178442038146,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.08348173741051998,
+        -0.057262898363852816,
+        -0.008796925605377565,
+        0.0033116893234400196
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.05137540414114839
+    },
+    {
+      "branch": "actual_on",
+      "region": "inner_1_8",
+      "line": "13CO",
+      "out_of_carbon_table_light_fraction": 0.6809718901389362,
+      "molecular_lookup_differs_fraction": 0.575409848199874,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        -0.07941330049052214,
+        -0.0006187992683041118,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.08768710142804258,
+        -0.06329768708488187,
+        -0.020506882643785546,
+        -0.005622251761525204
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.25737810167959674
+    },
+    {
+      "branch": "actual_on",
+      "region": "inner_1_8",
+      "line": "C18O",
+      "out_of_carbon_table_light_fraction": 0.7596104849623463,
+      "molecular_lookup_differs_fraction": 0.3099768685225225,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        -0.005292550941745236,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.0794987434972272,
+        -0.0519374305159537,
+        -0.004150724610492882,
+        0.005292226247872009
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.044326339077209564
+    },
+    {
+      "branch": "slug_on",
+      "region": "full_field",
+      "line": "13CO",
+      "out_of_carbon_table_light_fraction": 0.886218691817624,
+      "molecular_lookup_differs_fraction": 0.404672581014588,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        -0.07357562817879287,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.08872669973959403,
+        -0.07155506420276192,
+        -0.03224188406464726,
+        -0.017369889326729098
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.23368965753000912
+    },
+    {
+      "branch": "slug_on",
+      "region": "full_field",
+      "line": "C18O",
+      "out_of_carbon_table_light_fraction": 0.9348511351757879,
+      "molecular_lookup_differs_fraction": 0.13531037719553435,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        -0.0013473376158936476,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.08491332257451158,
+        -0.06525194088716663,
+        -0.014371894592659086,
+        0.0010428592677551086
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.04040800321412257
+    },
+    {
+      "branch": "slug_on",
+      "region": "inner_1_8",
+      "line": "13CO",
+      "out_of_carbon_table_light_fraction": 0.8981523262811583,
+      "molecular_lookup_differs_fraction": 0.3922572235566774,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        -0.07502415207482957,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.08820172515094844,
+        -0.06888379246266915,
+        -0.027064545334712507,
+        -0.011655497260128593
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.23299735348575593
+    },
+    {
+      "branch": "slug_on",
+      "region": "inner_1_8",
+      "line": "C18O",
+      "out_of_carbon_table_light_fraction": 0.9399407047853918,
+      "molecular_lookup_differs_fraction": 0.12053382473376785,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        -0.0007258494275434039,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.08320852976812258,
+        -0.06046622500647898,
+        -0.009298886314893583,
+        0.004152508448601623
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.03763586700880139
+    },
+    {
+      "branch": "actual_off",
+      "region": "full_field",
+      "line": "13CO",
+      "out_of_carbon_table_light_fraction": 0.6759150959304636,
+      "molecular_lookup_differs_fraction": 0.46443382330624744,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        -0.059389472604961184,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.08765260678964826,
+        -0.0658285555692535,
+        -0.02117583730289397,
+        -0.007824860996623072
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.13634519917104662
+    },
+    {
+      "branch": "actual_off",
+      "region": "full_field",
+      "line": "C18O",
+      "out_of_carbon_table_light_fraction": 0.764386660304617,
+      "molecular_lookup_differs_fraction": 0.28393875576964156,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        -0.00239442524639748,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.08348049147172651,
+        -0.05729479947191779,
+        -0.008893603065931585,
+        0.0033241843321181424
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.028539123593247222
+    },
+    {
+      "branch": "actual_off",
+      "region": "inner_1_8",
+      "line": "13CO",
+      "out_of_carbon_table_light_fraction": 0.6805331927119145,
+      "molecular_lookup_differs_fraction": 0.46230562730507674,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        -0.05861151029226894,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.08648767927396388,
+        -0.06185160817927058,
+        -0.016047166674404686,
+        -0.0016049669785995547
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.130957644737581
+    },
+    {
+      "branch": "actual_off",
+      "region": "inner_1_8",
+      "line": "C18O",
+      "out_of_carbon_table_light_fraction": 0.7601223587246434,
+      "molecular_lookup_differs_fraction": 0.28599145591612124,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        -0.001389467207558098,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.07944694818000854,
+        -0.05190861251986347,
+        -0.004243978707967768,
+        0.0053159058337999415
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.025367800556604904
+    },
+    {
+      "branch": "uniform_on",
+      "region": "full_field",
+      "line": "13CO",
+      "out_of_carbon_table_light_fraction": 1.0,
+      "molecular_lookup_differs_fraction": 0.46996590772162145,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        -0.08493449239456526,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.08840570135818664,
+        -0.064689126957963,
+        -0.022907836626792855,
+        -0.01080369044276838
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.3282333050548372
+    },
+    {
+      "branch": "uniform_on",
+      "region": "full_field",
+      "line": "C18O",
+      "out_of_carbon_table_light_fraction": 1.0,
+      "molecular_lookup_differs_fraction": 0.1304502951633908,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        -0.01024875820076222,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.0827842385045955,
+        -0.05347773007374253,
+        -0.007889955508282873,
+        0.003895415645773325
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.05318150940039441
+    },
+    {
+      "branch": "uniform_on",
+      "region": "inner_1_8",
+      "line": "13CO",
+      "out_of_carbon_table_light_fraction": 1.0,
+      "molecular_lookup_differs_fraction": 0.43589045625162526,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        -0.0851627791995835,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.08752255359984572,
+        -0.06164327483036059,
+        -0.01873145523811862,
+        -0.004450246254217269
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.3056774983790096
+    },
+    {
+      "branch": "uniform_on",
+      "region": "inner_1_8",
+      "line": "C18O",
+      "out_of_carbon_table_light_fraction": 1.0,
+      "molecular_lookup_differs_fraction": 0.11062349300699788,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        -0.001975636542394332,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.07875583104130368,
+        -0.04920500842001869,
+        -0.002997166252402963,
+        0.0057966764676621405
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.0442973120852756
+    },
+    {
+      "branch": "uniform_off",
+      "region": "full_field",
+      "line": "13CO",
+      "out_of_carbon_table_light_fraction": 1.0,
+      "molecular_lookup_differs_fraction": 0.25178372708129654,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        -0.06572468552598995,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.0875822051188771,
+        -0.06437200297368684,
+        -0.019018482710045505,
+        -0.0061121751936363405
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.16131490050273375
+    },
+    {
+      "branch": "uniform_off",
+      "region": "full_field",
+      "line": "C18O",
+      "out_of_carbon_table_light_fraction": 1.0,
+      "molecular_lookup_differs_fraction": 0.06970752354166451,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.08277809589004359,
+        -0.053304500700210256,
+        -0.007707465120808341,
+        0.0039014280729154876
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.027990214569512444
+    },
+    {
+      "branch": "uniform_off",
+      "region": "inner_1_8",
+      "line": "13CO",
+      "out_of_carbon_table_light_fraction": 1.0,
+      "molecular_lookup_differs_fraction": 0.2226230427510274,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        -0.06399917344984066,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.08641446945357942,
+        -0.06004816717902973,
+        -0.013241061191345348,
+        0.00016048131608991048
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.1466337540203079
+    },
+    {
+      "branch": "uniform_off",
+      "region": "inner_1_8",
+      "line": "C18O",
+      "out_of_carbon_table_light_fraction": 1.0,
+      "molecular_lookup_differs_fraction": 0.055666100873197316,
+      "frozen_molecular_minus_elemental_log_shielding_ratio_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frozen_bound35_minus69_log_shielding_ratio_quantiles": [
+        -0.07884257518459255,
+        -0.04916444773166557,
+        -0.0029848377701415826,
+        0.005847922658787491
+      ],
+      "molecular_lookup_shift_exceeds_0p05_dex_fraction": 0.022525573458111302
+    }
+  ],
+  "columns": "GOW cloud-centre columns: supplied NH/2 times chemical abundance",
+  "scope": "Frozen-state table diagnostic. No coupled equilibrium response calculated; not an uncertainty bound. Oxygen table ratio remains 557."
+}

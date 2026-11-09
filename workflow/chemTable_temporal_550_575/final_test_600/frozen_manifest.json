@@ -1,0 +1,16 @@
+{
+  "train_snapshots": [
+    550,
+    575
+  ],
+  "final_test_snapshot": 600,
+  "model_sha256": "caf59d06b627ae296f3a4f1430907a0e8b3be027365f76367972cb55e4c059ae",
+  "frozen_file_sha256": {
+    "frozen_surrogate.joblib": "caf59d06b627ae296f3a4f1430907a0e8b3be027365f76367972cb55e4c059ae",
+    "training_config.json": "b4c5592edd2735fb8fdb854776fc2c3892cb6f900bf821362dd5c68d87f0a910",
+    "source_manifest.json": "bef77c2e6b99abb4e4f22777425b4cf06fa5ee3e48de7e614e035f891996d775",
+    "test_snapshot600_totals.py": "30b9a63dcd5a6a1d092795868cea503959b20e4bcaed683cf7e5526a80690d99",
+    "adaptive_local_surrogate.py": "bda08e62e8ce8a8a63e1096cbc5f4f7ff3134f26d95f89cccb6a4c7983283bb1"
+  },
+  "criterion": "absolute total-line luminosity bias <= 0.05 dex; no fitting or selection on 600"
+}

@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "reviewed_particle_count": 32768,
+  "physical_states": 163840,
+  "qualified_states": 160161,
+  "failed_states": 955,
+  "timed_out_states": 2724,
+  "reused_states": 3713,
+  "interval_sets_independently_reconstructed": 1220,
+  "maximum_point_difference": 1.6209256159527285e-14,
+  "maximum_standard_error_difference": 6.487865800153259e-16,
+  "reviewed_source_sha256": "692909b7f30ca3aae4d3cc1b83b77be3d5fda5d37c307672f7ea33cd6c28cfee",
+  "manifest_sha256": "4d3ca71d88ec1ca0aa4402cfffeccaa1a698ffda0ed80f287244a814805b9d2d",
+  "output_hashes": {
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_outer_validation_20261105/direct/part00.npz": "d358b40d910bb30190f59ce8595a1abe01e0737166a1ec412b950a72c5a2ea6a",
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_outer_validation_20261105/direct/part01.npz": "fd94a6bce3651119386fb7422d950fd152ea2647400d55fc7d2fdeef1c77e74e",
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_outer_validation_20261105/direct/part02.npz": "8fba658400d1744b44e402802a56fc5e8ef493a26e1a7d23fcea4757c22e095e",
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_outer_validation_20261105/direct/part03.npz": "ccc6f8587109d2db7c1b646a791375f87d1a2cf51ffdbdcc8be045e15b66638c",
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_outer_validation_20261105/direct/part04.npz": "2897a0d04aa4a2861501b3bafffed9d251576d2f6542313a0864dd0063a0d85d",
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_outer_validation_20261105/direct/part05.npz": "46236b0c4c3047e33d0b3b74efda4024b3cff5c233c6ef1773331008497706c4",
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_outer_validation_20261105/direct/part06.npz": "1d87e582b658493b6b4b3f924d38fc49b3601d73b4bfdaa77bc69e80f7f35257",
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_outer_validation_20261105/direct/part07.npz": "6808590a42ca56647239d5e5ba5559e31d27dba591d8eb5578a55ecfa7ef368f",
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_outer_validation_20261105/geometry/part00.npz": "d4a12aa4c7909ea5283dccbb72a6c1a2a232623bb101812ca433da2eaf456565",
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_outer_validation_20261105/geometry/part01.npz": "e6858a4faa41e43eb334e5b1f6c30c99e7469b34b81ce1a1c3aa431798871f54",
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_outer_validation_20261105/geometry/part02.npz": "ae4a179b4eabcbb1ba1f6c217995a6b4b3e41ff06b13b9c7c96f5823aea4c48f",
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_outer_validation_20261105/geometry/part03.npz": "7adafc50644eea7ab00e29b74f9c286147c7830a9882e58545815c51d7528745"
+  },
+  "all_14_jobs_exit_zero": true,
+  "service_units": 3461.7400000000002,
+  "MSU": 0.00346174,
+  "physical_solves_in_audit": 0,
+  "interpretation": "Sampling uncertainty conditional on successful states; no physical-model or unresolved-light bound."
+}

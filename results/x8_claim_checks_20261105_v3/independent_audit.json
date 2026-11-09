@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "manifest_sha256": "ee688bdfcde79f081cbd17c86b038b5302cbd774bb829cc3b43ca64260447f3a",
+  "review_sha256": "f13a1684734e6ce5312927adfae7ad44ece31fa83a3f007a35b25297e0d1f5dd",
+  "independently_checked_intervals": 1064,
+  "maximum_point_difference": 1.2101430968414206e-14,
+  "maximum_standard_error_difference": 1.5785983631388945e-16,
+  "geometry_hashes": {
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_claim_checks_20261105_v3/geometry/part00.npz": "7894685a03faff11f5be42d5643f34c872e0a6871ff8b941fd832fb978a0e4c2",
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_claim_checks_20261105_v3/geometry/part01.npz": "2218072ef03e3c308afc22e404155a743bc830c4019f93e7867bfdebfb3c94ca",
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_claim_checks_20261105_v3/geometry/part02.npz": "101b33f49ddc486426d6390ab82037e132b810d09412113d931be97634d53895",
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_claim_checks_20261105_v3/geometry/part03.npz": "6b8b307074917f736385bc91848cbba58c8596fc09b356ddab543282e6ad2655",
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_sfr_validation_20261102/geometry/part00.npz": "8e415832e2e8fd5e337216834b21fbb7fda6718e1e590a962a65cba5e9d597ba",
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_sfr_validation_20261102/geometry/part01.npz": "dce9c10974101bc7c46090dc3cdc3442b0926749469444baedc7f735bcbc9298",
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_sfr_validation_20261102/geometry/part02.npz": "3c81e9f92b3c99dbd00bacc4b0886228e927ef2725fc31db3e0646c1ccdd170f",
+    "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_sfr_validation_20261102/geometry/part03.npz": "419bf80c59e29b9cc07f58f74801858115fdae5a92b86258d0ba01b3ec7ce632"
+  },
+  "scope": "Independent scalar influence reconstruction; no physical or full-population error bound."
+}

@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "run_name": "full_x8_snapshot575_primary_auto_20261028",
+  "description": "Entire active x8/575 population; primary auto timescale; nominal labels with explicit failures.",
+  "paths": {
+    "snapshot": "/scratch/jh2/cz4203/2025_simulation/snapshots_highRes/run_split550_50Myr/output/snapdir_575/snapshot_575.0.hdf5",
+    "cloud_file": "cloudfiles/MilkyWayGMC.desp",
+    "visser_shielding_dir": "data/visser_co_shielding",
+    "direct_input": "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_direct_validation_20261027/cache/part00.h5",
+    "retry_input": "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_full_direct_575_20261028/UNUSED_retry.h5",
+    "primary_chunk_dir": "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_full_direct_575_20261028/output",
+    "retry_chunk_dir": "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_full_direct_575_20261028/UNUSED_retry",
+    "merged_result": "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_full_direct_575_20261028/UNUSED_merged.h5",
+    "map_output_dir": "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/x8_full_direct_575_20261028/UNUSED_maps",
+    "legacy_map": "../outputs/projected_native_snap600/snapshot_600_maps_chuhan.npz"
+  },
+  "snapshot": {
+    "index": 575,
+    "unit_base": {
+      "UnitLength_in_cm": 3.08568e+21,
+      "UnitMass_in_g": 1.989e+43,
+      "UnitVelocity_in_cm_per_s": 100000.0
+    },
+    "bounding_box_code_units": [
+      [
+        -10000.0,
+        10000.0
+      ],
+      [
+        -10000.0,
+        10000.0
+      ],
+      [
+        -10000.0,
+        10000.0
+      ]
+    ],
+    "hydrogen_mass_fraction": 0.76,
+    "hot_gas_internal_energy_threshold": 210.4916297,
+    "maximum_neutral_hii_fraction": 0.1,
+    "stellar_yield_mode": "all"
+  },
+  "isotope_fields": {
+    "12C": [
+      {
+        "field": "Metallicity_01",
+        "factor": 1.0
+      },
+      {
+        "field": "Metallicity_14",
+        "factor": 1.0
+      },
+      {
+        "field": "Metallicity_27",
+        "factor": 1.0
+      },
+      {
+        "field": "Metallicity_40",
+        "numerator": 0.00304,
+        "denominator": 1.4
+      },
+      {
+        "field": "Metallicity_42",
+        "numerator": 1e-07,
+        "denominator": 1.93e-05
+      }
+    ],
+    "13C": [
+      {
+        "field": "Metallicity_02",
+        "factor": 1.0
+      },
+      {
+        "field": "Metallicity_15",
+        "factor": 1.0
+      },
+      {
+        "field": "Metallicity_28",
+        "factor": 1.0
+      },
+      {
+        "field": "Metallicity_40",
+        "numerator": 1.74e-08,
+        "denominator": 1.4
+      },
+      {
+        "field": "Metallicity_42",
+        "numerator": 2.76e-09,
+        "denominator": 1.93e-05
+      }
+    ],
+    "16O": [
+      {
+        "field": "Metallicity_05",
+        "factor": 1.0
+      },
+      {
+        "field": "Metallicity_18",
+        "factor": 1.0
+      },
+      {
+        "field": "Metallicity_31",
+        "factor": 1.0
+      },
+      {
+        "field": "Metallicity_40",
+        "numerator": 0.101,
+        "denominator": 1.4
+      },
+      {
+        "field": "Metallicity_42",
+        "numerator": 1.15e-07,
+        "denominator": 1.93e-05
+      }
+    ],
+    "18O": [
+      {
+        "field": "Metallicity_07",
+        "factor": 1.0
+      },
+      {
+        "field": "Metallicity_20",
+        "factor": 1.0
+      },
+      {
+        "field": "Metallicity_33",
+        "factor": 1.0
+      },
+      {
+        "field": "Metallicity_40",
+        "numerator": 3.53e-09,
+        "denominator": 1.4
+      },
+      {
+        "field": "Metallicity_42",
+        "numerator": 1.7e-10,
+        "denominator": 1.93e-05
+      }
+    ],
+    "atomic_mass_numbers": {
+      "12C": 12.0,
+      "13C": 13.0,
+      "16O": 16.0,
+      "18O": 18.0
+    },
+    "oxygen_renormalization": {
+      "enabled": true,
+      "target_16O_over_12C": 2.0,
+      "weighting": "gas_mass",
+      "apply_same_factor_to_18O": true
+    }
+  },
+  "shielding_column": {
+    "mode": "projected_face_on",
+    "map_size_pc": 30000.0,
+    "map_resolution": 3000,
+    "minimum_dvdr_km_s_pc": 0.001
+  },
+  "cloud": {
+    "initial_Tg_K": 10.0,
+    "initial_Td_K": 10.0,
+    "helium_abundance_per_H_nucleus": 0.1,
+    "dust_radiation_temperature_K": 10.0,
+    "chi_Draine": 1.0,
+    "cosmic_ray_ionization_rate_s-1": 1e-16,
+    "no_clumping": true,
+    "escape_probability_geometry": "LVG"
+  },
+  "chemistry": {
+    "network": "GOW",
+    "include_13C_fractionation": true,
+    "include_C18O_fractionation": false,
+    "visser_b_CO_km_s": 0.3,
+    "reference_abundances_per_H_nucleus": {
+      "12C": 0.00016,
+      "13C": 2.6666666666666664e-06,
+      "16O": 0.00032,
+      "18O": 6.4e-07,
+      "CO": 0.0001,
+      "13CO": 1.6666666666666667e-06,
+      "C18O": 2e-07
+    },
+    "molecular_initialization": {
+      "elemental_seed_cap_fraction": 0.8,
+      "combined_isotopologue_cap_fraction": 0.95,
+      "minimum_emitter_abundance": 1e-30
+    },
+    "setChemEq": {
+      "tEqGuess_s": null,
+      "evolve_temperature": "iterate",
+      "add_emitters": true,
+      "relative_tolerance": 0.001,
+      "small_abundance": 1e-15,
+      "maximum_time_primary_s": 1e+16,
+      "maximum_time_retry_s": 1e+18,
+      "maximum_temperature_iterations": 50,
+      "convergence_species": null
+    }
+  },
+  "execution": {
+    "prepare": {
+      "force": false
+    },
+    "primary": {
+      "chunk_size": 20000,
+      "workers": 104,
+      "damp_factors": [
+        0.25,
+        0.1,
+        0.03
+      ]
+    },
+    "retry": {
+      "chunk_size": 5000,
+      "workers": 104,
+      "damp_factors": [
+        0.25,
+        0.1,
+        0.03
+      ]
+    },
+    "array_submission_max_subjobs": 10,
+    "thread_limits": {
+      "OMP_NUM_THREADS": 1,
+      "OPENBLAS_NUM_THREADS": 1,
+      "MKL_NUM_THREADS": 1,
+      "NUMEXPR_NUM_THREADS": 1
+    }
+  },
+  "projection": {
+    "map_size_pc": 30000.0,
+    "map_resolution": 1500,
+    "line_frequencies_Hz": {
+      "CO": 115271201800.0,
+      "13CO": 110201354300.0,
+      "C18O": 109782173400.0
+    },
+    "CO_inferred_H2_Msun_per_erg_s": 2.3e-29,
+    "assumed_alpha_CO_Msun_pc-2_per_K_km_s-1": 4.3196884,
+    "unconverged_particle_policy": "zero"
+  },
+  "mock_observation": {
+    "beam_pc": 125.0,
+    "hex_size_pc": 125.0,
+    "gaussian_truncate_sigma": 4.0,
+    "detection_snr_threshold": 3.0,
+    "noise_levels_K_km_s": [
+      {
+        "label": "reference",
+        "sigma13": 0.0163,
+        "sigma18": 0.0144
+      },
+      {
+        "label": "10x_deeper",
+        "sigma13": 0.00163,
+        "sigma18": 0.00144
+      },
+      {
+        "label": "100x_deeper",
+        "sigma13": 0.000163,
+        "sigma18": 0.000144
+      }
+    ],
+    "radial_sensitivity_decades": 5,
+    "radial_bin_kpc": 1.0,
+    "maximum_radius_kpc": 15.0,
+    "minimum_detections_per_radial_bin": 10,
+    "noise_fraction_mode": "none"
+  },
+  "diagnostics": {
+    "young_star_age_Myr": 100.0,
+    "h2_dominated_threshold_2XH2": 0.5,
+    "co_dominated_threshold_XCO_over_x12C": 0.5,
+    "dense_gas_threshold_nH_cm-3": 100.0,
+    "opacity_thresholds": [
+      0.1,
+      1.0,
+      10.0
+    ]
+  }
+}

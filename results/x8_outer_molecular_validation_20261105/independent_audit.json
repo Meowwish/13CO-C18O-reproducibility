@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "checked_intervals": 504,
+  "maximum_difference": 9.2148511043888e-15,
+  "luminosity_replay_passed": true,
+  "review_sha256": "850c864de4a8038298027d86fbd822ece4da17510ba9643c0021b8d19bd265e5"
+}

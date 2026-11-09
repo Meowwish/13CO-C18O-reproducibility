@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "run_name": "snapshot575_x8_frozen_temporal_science",
+  "snapshot": {
+    "index": 575,
+    "file_pattern": "/scratch/jh2/cz4203/2025_simulation/snapshots_highRes/run_split550_50Myr/output/snapdir_575/snapshot_575.*.hdf5",
+    "expected_file_count": 8,
+    "unit_length_cm": 3.08568e+21,
+    "unit_mass_g": 1.989e+43,
+    "unit_velocity_cm_s": 100000.0,
+    "hydrogen_mass_fraction": 0.76,
+    "maximum_neutral_hii_fraction": 0.1,
+    "hot_gas_internal_energy_threshold": 210.4916297
+  },
+  "chemistry": {
+    "source_workflow_config": "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/chemTable_v6_brightness_validation/config/snapshot600_face_on_tight.json",
+    "surrogate_model": "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/chemTable_temporal_550_575/final_test_600/frozen_surrogate.joblib",
+    "projected_closure_report": "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/chemTable_temporal_550_575/final_test_600/projected/snapshot600_temporal_metrics.json",
+    "required_source_run_name": "snapshot550_temporal_training_face_on_tight",
+    "required_surrogate_run_name": "temporal_550_575_gradient_boosted_surrogate",
+    "cosmic_ray_ionization_rate_s-1": 1e-16,
+    "out_of_domain_policy": "edge_prediction_with_explicit_axis_and_joint_coverage_flags",
+    "quantitative_scope": "whole-map integrated quantities and 125 pc radial profiles for 1 <= R < 8 kpc, subject to the high-resolution transfer coverage gate",
+    "minimum_validated_radius_kpc": 1.0,
+    "maximum_validated_radius_kpc": 8.0,
+    "projected_map_p95_limit_dex": 0.15,
+    "projected_integrated_bias_limit_dex": 0.05,
+    "projected_radial_bias_limit_dex": 0.05,
+    "maximum_uncovered_active_mass_fraction": 0.01,
+    "minimum_reliable_rare_line_luminosity_fraction": 0.99,
+    "allowed_full_report_failures": [
+      "20_pc_pixels:mapLCO:radial_bias",
+      "20_pc_pixels:mapLC18O:radial_bias",
+      "125_pc_beam:mapLC18O:radial_bias"
+    ],
+    "required_closure_run_name": "frozen_temporal_550_575_final_snapshot600_projection"
+  },
+  "projection": {
+    "map_size_pc": 30000.0,
+    "column_resolution": 3000,
+    "map_resolution": 1500,
+    "particle_chunk_size": 1000000,
+    "minimum_dvdr_km_s_pc": 0.001,
+    "CO_inferred_H2_Msun_per_erg_s": 2.3e-29,
+    "line_frequencies_Hz": {
+      "CO": 115271201800.0,
+      "13CO": 110201354300.0,
+      "C18O": 109782173400.0
+    }
+  },
+  "outputs": {
+    "context_npz": "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/chemTable_temporal_550_575/x8_coverage/snapshot575_global_context.npz",
+    "part_dir": "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/highres_snapshot575_temporal/output/parts",
+    "maps_npz": "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/highres_snapshot575_temporal/output/snapshot_575_maps_chuhan.npz",
+    "summary_json": "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/highres_snapshot575_temporal/output/snapshot575_summary.json",
+    "figure_png": "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/highres_snapshot575_temporal/output/snapshot575_native_abundance_intensity.png",
+    "co_figure_png": "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/highres_snapshot575_temporal/output/snapshot_575_CO_surface_density_and_intensity_20pc.png"
+  },
+  "coverage_only": false
+}

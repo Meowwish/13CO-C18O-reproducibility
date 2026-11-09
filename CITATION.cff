@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript when using these reproduction materials."
+title: "Reproduction materials for From stellar enrichment to 13CO/C18O line ratios"
+type: software
+version: "2026.11.09"
+date-released: "2026-11-09"
+authors:
+  - family-names: Zhang
+    given-names: Chuhan
+    orcid: "https://orcid.org/0009-0000-2503-4803"
+  - family-names: Krumholz
+    given-names: Mark R.
+    orcid: "https://orcid.org/0000-0003-3893-854X"
+repository-code: "https://github.com/Meowwish/13CO-C18O-reproducibility"

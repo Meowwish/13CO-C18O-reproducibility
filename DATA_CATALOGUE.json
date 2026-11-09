@@ -1,0 +1,38 @@
+{
+  "release": "paper-e9e9d9e-20261109",
+  "gadi_root": "/g/data/jh2/cz4203/13CO_C18O_reproducibility/paper-e9e9d9e-20261109",
+  "contact": "chuhan.zhang@anu.edu.au",
+  "paper_commit": "e9e9d9efd3440be0dde9a739ec34bddeb35a54f6",
+  "raw_RoSE_included": false,
+  "bundles": [
+    {
+      "id": "cached-validation",
+      "bytes": 1321336853,
+      "files": 202,
+      "archive_status": "submitted for payload and SHA256 verification",
+      "pbs_job": "183572185.gadi-pbs"
+    },
+    {
+      "id": "derived-particle-inputs",
+      "bytes": 17443948240,
+      "files": 8,
+      "archive_status": "submitted for payload and SHA256 verification",
+      "pbs_job": "183572186.gadi-pbs"
+    },
+    {
+      "id": "maps",
+      "bytes": 4669533964,
+      "files": 29,
+      "archive_status": "submitted for payload and SHA256 verification",
+      "pbs_job": "183572187.gadi-pbs"
+    },
+    {
+      "id": "models-training",
+      "bytes": 1818275066,
+      "files": 5,
+      "archive_status": "submitted for payload and SHA256 verification",
+      "pbs_job": "183572188.gadi-pbs"
+    }
+  ],
+  "request": "Email the release ID and required bundle IDs. Per-file SHA256 manifests and archive SHA256 are supplied with the bundles."
+}

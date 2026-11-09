@@ -1,0 +1,34 @@
+{
+  "stages": [
+    "direct x8 selected-statistic curves",
+    "all primary-cohort nonresponse recovery and LVG envelopes",
+    "new-time direct references"
+  ],
+  "temporal_snapshots": [
+    551,
+    563,
+    567
+  ],
+  "maximum_particles_each": 32768,
+  "finite_layer_census_particle_targets": {
+    "551": 32768,
+    "563": 31479,
+    "567": 32473
+  },
+  "physical_states_per_particle": 5,
+  "initial_logical_jobs": 76,
+  "replacement_jobs_for_two_preparations": 38,
+  "source": "science_closure_20261109",
+  "status": "submitted; new results require scientific assessment",
+  "model_fitting": false,
+  "numerical_protocol": {
+    "tEqGuess": null,
+    "smallabd": 1e-15,
+    "tol": 0.001,
+    "maxTime": 1e+18,
+    "normal_mxstep": 5000,
+    "normal_wall_seconds": 600,
+    "recovery_mxstep": 50000,
+    "recovery_wall_seconds": 1800
+  }
+}

@@ -1,0 +1,4 @@
+# Frozen source/data hashes require exact bytes, including original CSV CRLF.
+* -text
+# Preserve inherited scientific and third-party source whitespace verbatim.
+workflow/** -whitespace

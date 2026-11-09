@@ -1,0 +1,559 @@
+{
+  "schema_version": 1,
+  "run_name": "frozen_temporal_550_575_final_snapshot600_projection",
+  "model_path": "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/chemTable_temporal_550_575/final_test_600/frozen_surrogate.joblib",
+  "model_particle_validation_passed": false,
+  "direct_map_path": "/scratch/jh2/cz4203/2025_simulation/analysis/2026_isotopes/chemTable_v6_brightness_validation/output/face_on_tight/maps/snapshot_600_maps_chuhan.npz",
+  "direct_particle_source": "original-resolution snapshot 600 only",
+  "high_resolution_direct_rows": 0,
+  "coverage": {
+    "axis_particle_fraction": 1.0,
+    "axis_mass_fraction": 1.0,
+    "joint_particle_fraction": 0.9999214501807212,
+    "joint_mass_fraction": 0.9997533213385622
+  },
+  "scales": {
+    "20_pc_pixels": {
+      "maps": {
+        "CO_abundance": {
+          "positive_overlap_pixel_count": 1074077,
+          "direct_weighted_median_bias_dex": 0.0006708175964569215,
+          "direct_weighted_p95_absolute_error_dex": 0.04954934215211384,
+          "integrated_bias_dex": -3.970306623757158e-06,
+          "direct_positive_lookup_nonpositive_count": 0,
+          "direct_positive_pixel_percentile_thresholds": [
+            7.307118265053878e-17,
+            1.1024083764775142e-08
+          ],
+          "brightness_strata": {
+            "faint_p0_p50": {
+              "direct_positive_count": 537039,
+              "positive_overlap_count": 537039,
+              "unweighted_median_dex": 0.0008724969083449331,
+              "unweighted_p95_absolute_dex": 0.8693008552922322
+            },
+            "intermediate_p50_p90": {
+              "direct_positive_count": 429630,
+              "positive_overlap_count": 429630,
+              "unweighted_median_dex": -0.005183417790942918,
+              "unweighted_p95_absolute_dex": 0.41961503649171844
+            },
+            "bright_p90_p100": {
+              "direct_positive_count": 107408,
+              "positive_overlap_count": 107408,
+              "unweighted_median_dex": -0.0018582953585799132,
+              "unweighted_p95_absolute_dex": 0.05155132192694724
+            }
+          }
+        },
+        "C13O_abundance": {
+          "positive_overlap_pixel_count": 1074077,
+          "direct_weighted_median_bias_dex": -0.00019643322954893794,
+          "direct_weighted_p95_absolute_error_dex": 0.03375539212851706,
+          "integrated_bias_dex": -0.0010373597996582455,
+          "direct_positive_lookup_nonpositive_count": 0,
+          "direct_positive_pixel_percentile_thresholds": [
+            2.4770472080954923e-19,
+            1.6485874033024305e-10
+          ],
+          "brightness_strata": {
+            "faint_p0_p50": {
+              "direct_positive_count": 537039,
+              "positive_overlap_count": 537039,
+              "unweighted_median_dex": 0.0005168909592252181,
+              "unweighted_p95_absolute_dex": 0.650641107392372
+            },
+            "intermediate_p50_p90": {
+              "direct_positive_count": 429630,
+              "positive_overlap_count": 429630,
+              "unweighted_median_dex": -0.0019261657438974901,
+              "unweighted_p95_absolute_dex": 0.2867321435627256
+            },
+            "bright_p90_p100": {
+              "direct_positive_count": 107408,
+              "positive_overlap_count": 107408,
+              "unweighted_median_dex": -0.0013720303194566423,
+              "unweighted_p95_absolute_dex": 0.05612856440927538
+            }
+          }
+        },
+        "C18O_abundance": {
+          "positive_overlap_pixel_count": 1074077,
+          "direct_weighted_median_bias_dex": -0.0010380123134906291,
+          "direct_weighted_p95_absolute_error_dex": 0.037987601756819415,
+          "integrated_bias_dex": -0.001292910316165465,
+          "direct_positive_lookup_nonpositive_count": 0,
+          "direct_positive_pixel_percentile_thresholds": [
+            4.676493811833961e-20,
+            1.2041168075046882e-11
+          ],
+          "brightness_strata": {
+            "faint_p0_p50": {
+              "direct_positive_count": 537039,
+              "positive_overlap_count": 537039,
+              "unweighted_median_dex": 0.0015038220109403811,
+              "unweighted_p95_absolute_dex": 0.6622718074549268
+            },
+            "intermediate_p50_p90": {
+              "direct_positive_count": 429630,
+              "positive_overlap_count": 429630,
+              "unweighted_median_dex": -0.002078927507608092,
+              "unweighted_p95_absolute_dex": 0.25834818349576316
+            },
+            "bright_p90_p100": {
+              "direct_positive_count": 107408,
+              "positive_overlap_count": 107408,
+              "unweighted_median_dex": -0.0018391299604360511,
+              "unweighted_p95_absolute_dex": 0.03585657483631771
+            }
+          }
+        },
+        "mapLCO": {
+          "positive_overlap_pixel_count": 1073508,
+          "direct_weighted_median_bias_dex": 0.0015667791849896641,
+          "direct_weighted_p95_absolute_error_dex": 0.05081443760580258,
+          "integrated_bias_dex": 0.00433569179780624,
+          "direct_positive_lookup_nonpositive_count": 0,
+          "direct_positive_pixel_percentile_thresholds": [
+            1313003118924809.5,
+            3.959982258704487e+24
+          ],
+          "brightness_strata": {
+            "faint_p0_p50": {
+              "direct_positive_count": 536754,
+              "positive_overlap_count": 536754,
+              "unweighted_median_dex": 0.0011415419670575463,
+              "unweighted_p95_absolute_dex": 0.8279713816678793
+            },
+            "intermediate_p50_p90": {
+              "direct_positive_count": 429403,
+              "positive_overlap_count": 429403,
+              "unweighted_median_dex": -0.006159605445178728,
+              "unweighted_p95_absolute_dex": 0.4185901053305125
+            },
+            "bright_p90_p100": {
+              "direct_positive_count": 107351,
+              "positive_overlap_count": 107351,
+              "unweighted_median_dex": -0.0007817911158473444,
+              "unweighted_p95_absolute_dex": 0.05732478475538494
+            }
+          }
+        },
+        "mapL13CO": {
+          "positive_overlap_pixel_count": 1074049,
+          "direct_weighted_median_bias_dex": 0.0005382300474432024,
+          "direct_weighted_p95_absolute_error_dex": 0.0799254735969678,
+          "integrated_bias_dex": 0.004622100963002343,
+          "direct_positive_lookup_nonpositive_count": 0,
+          "direct_positive_pixel_percentile_thresholds": [
+            4098791572765.561,
+            5.6284006488114685e+22
+          ],
+          "brightness_strata": {
+            "faint_p0_p50": {
+              "direct_positive_count": 537025,
+              "positive_overlap_count": 537025,
+              "unweighted_median_dex": 0.002144689730992531,
+              "unweighted_p95_absolute_dex": 0.6907407685866273
+            },
+            "intermediate_p50_p90": {
+              "direct_positive_count": 429619,
+              "positive_overlap_count": 429619,
+              "unweighted_median_dex": -0.0039932132753804275,
+              "unweighted_p95_absolute_dex": 0.4210473944090575
+            },
+            "bright_p90_p100": {
+              "direct_positive_count": 107405,
+              "positive_overlap_count": 107405,
+              "unweighted_median_dex": -0.0024127027264158416,
+              "unweighted_p95_absolute_dex": 0.09358134059559095
+            }
+          }
+        },
+        "mapLC18O": {
+          "positive_overlap_pixel_count": 1074044,
+          "direct_weighted_median_bias_dex": -0.0010367145685308153,
+          "direct_weighted_p95_absolute_error_dex": 0.07226726530818177,
+          "integrated_bias_dex": 0.001320343566221975,
+          "direct_positive_lookup_nonpositive_count": 0,
+          "direct_positive_pixel_percentile_thresholds": [
+            772089555786.0233,
+            3.92020066354769e+21
+          ],
+          "brightness_strata": {
+            "faint_p0_p50": {
+              "direct_positive_count": 537022,
+              "positive_overlap_count": 537022,
+              "unweighted_median_dex": 0.0010473601110728916,
+              "unweighted_p95_absolute_dex": 0.7281046799141866
+            },
+            "intermediate_p50_p90": {
+              "direct_positive_count": 429617,
+              "positive_overlap_count": 429617,
+              "unweighted_median_dex": -0.003911110981577654,
+              "unweighted_p95_absolute_dex": 0.35502713443038336
+            },
+            "bright_p90_p100": {
+              "direct_positive_count": 107405,
+              "positive_overlap_count": 107405,
+              "unweighted_median_dex": -0.002340900139231868,
+              "unweighted_p95_absolute_dex": 0.07030493480483575
+            }
+          }
+        }
+      },
+      "radial": {
+        "edges_kpc": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          7.0,
+          8.0
+        ],
+        "centers_kpc": [
+          0.5,
+          1.5,
+          2.5,
+          3.5,
+          4.5,
+          5.5,
+          6.5,
+          7.5
+        ],
+        "line_bias_dex": {
+          "mapLCO": [
+            -0.06029587664963813,
+            0.00041311351498742483,
+            0.0033662698415881163,
+            0.008608476498139362,
+            0.008314317288964049,
+            0.007967350784839575,
+            0.006906743110776356,
+            0.0029503400741355363
+          ],
+          "mapL13CO": [
+            -0.049787410939837184,
+            0.010993244562573029,
+            0.0006156623979514973,
+            0.010524819969122377,
+            0.009709701558571843,
+            0.0014563480893785936,
+            0.00737671238711369,
+            0.003230353279651298
+          ],
+          "mapLC18O": [
+            -0.06629007206619622,
+            0.004041607324081921,
+            -0.008635866327684781,
+            0.003825427873887156,
+            0.011817645001202552,
+            -0.0017894058149437002,
+            0.0076302426531054835,
+            0.006945260937155249
+          ]
+        },
+        "ratio_13CO_over_C18O_bias_dex": [
+          0.01650266112635916,
+          0.0069516372384910265,
+          0.009251528725636289,
+          0.006699392095235198,
+          -0.0021079434426306697,
+          0.003245753904322236,
+          -0.0002535302659918359,
+          -0.0037149076575040117
+        ],
+        "maximum_absolute_ratio_bias_dex": 0.01650266112635916,
+        "maximum_absolute_line_bias_dex": {
+          "mapLCO": 0.06029587664963813,
+          "mapL13CO": 0.049787410939837184,
+          "mapLC18O": 0.06629007206619622
+        }
+      },
+      "ratio_map": {
+        "positive_overlap_count": 1074044,
+        "unweighted_median_dex": -9.396186802432561e-05,
+        "unweighted_p95_absolute_dex": 0.19700401874666545,
+        "note": "Energy-luminosity ratio; its lookup/direct residual equals that in brightness-temperature intensity ratio. No detection cut."
+      }
+    },
+    "125_pc_beam": {
+      "maps": {
+        "CO_abundance": {
+          "positive_overlap_pixel_count": 1566303,
+          "direct_weighted_median_bias_dex": 0.0008344948889959126,
+          "direct_weighted_p95_absolute_error_dex": 0.03151436852522981,
+          "integrated_bias_dex": -3.970306624432193e-06,
+          "direct_positive_lookup_nonpositive_count": 0,
+          "direct_positive_pixel_percentile_thresholds": [
+            6.413686775329156e-12,
+            9.39773552280516e-07
+          ],
+          "brightness_strata": {
+            "faint_p0_p50": {
+              "direct_positive_count": 783152,
+              "positive_overlap_count": 783152,
+              "unweighted_median_dex": -0.002899246387205373,
+              "unweighted_p95_absolute_dex": 0.5574634055076163
+            },
+            "intermediate_p50_p90": {
+              "direct_positive_count": 626520,
+              "positive_overlap_count": 626520,
+              "unweighted_median_dex": -0.0010106221328680227,
+              "unweighted_p95_absolute_dex": 0.05358706471984748
+            },
+            "bright_p90_p100": {
+              "direct_positive_count": 156631,
+              "positive_overlap_count": 156631,
+              "unweighted_median_dex": -0.0003387783634611831,
+              "unweighted_p95_absolute_dex": 0.0582327842400786
+            }
+          }
+        },
+        "C13O_abundance": {
+          "positive_overlap_pixel_count": 1566303,
+          "direct_weighted_median_bias_dex": -0.0002363286320727897,
+          "direct_weighted_p95_absolute_error_dex": 0.027212510069322834,
+          "integrated_bias_dex": -0.001037359799658342,
+          "direct_positive_lookup_nonpositive_count": 0,
+          "direct_positive_pixel_percentile_thresholds": [
+            1.0562871493490234e-13,
+            2.473180904868497e-08
+          ],
+          "brightness_strata": {
+            "faint_p0_p50": {
+              "direct_positive_count": 783152,
+              "positive_overlap_count": 783152,
+              "unweighted_median_dex": -0.0021488059408133866,
+              "unweighted_p95_absolute_dex": 0.39182634617490175
+            },
+            "intermediate_p50_p90": {
+              "direct_positive_count": 626520,
+              "positive_overlap_count": 626520,
+              "unweighted_median_dex": -0.0015583488323846456,
+              "unweighted_p95_absolute_dex": 0.05747338213508907
+            },
+            "bright_p90_p100": {
+              "direct_positive_count": 156631,
+              "positive_overlap_count": 156631,
+              "unweighted_median_dex": -0.000528879977223874,
+              "unweighted_p95_absolute_dex": 0.04993181787801705
+            }
+          }
+        },
+        "C18O_abundance": {
+          "positive_overlap_pixel_count": 1566303,
+          "direct_weighted_median_bias_dex": -0.0009049025252503147,
+          "direct_weighted_p95_absolute_error_dex": 0.02614532160271638,
+          "integrated_bias_dex": -0.001292910316165175,
+          "direct_positive_lookup_nonpositive_count": 0,
+          "direct_positive_pixel_percentile_thresholds": [
+            6.457242875432796e-15,
+            7.20098215158262e-10
+          ],
+          "brightness_strata": {
+            "faint_p0_p50": {
+              "direct_positive_count": 783152,
+              "positive_overlap_count": 783152,
+              "unweighted_median_dex": -0.0010428716812602196,
+              "unweighted_p95_absolute_dex": 0.3784439857340996
+            },
+            "intermediate_p50_p90": {
+              "direct_positive_count": 626520,
+              "positive_overlap_count": 626520,
+              "unweighted_median_dex": -0.0013605159217127067,
+              "unweighted_p95_absolute_dex": 0.041164024204956844
+            },
+            "bright_p90_p100": {
+              "direct_positive_count": 156631,
+              "positive_overlap_count": 156631,
+              "unweighted_median_dex": -0.0007216589372949854,
+              "unweighted_p95_absolute_dex": 0.052957250983579236
+            }
+          }
+        },
+        "mapLCO": {
+          "positive_overlap_pixel_count": 1565992,
+          "direct_weighted_median_bias_dex": 0.0018175360592595983,
+          "direct_weighted_p95_absolute_error_dex": 0.03692633748334439,
+          "integrated_bias_dex": 0.004335691797806145,
+          "direct_positive_lookup_nonpositive_count": 0,
+          "direct_positive_pixel_percentile_thresholds": [
+            2.21551902510566e+21,
+            9.389862378140814e+26
+          ],
+          "brightness_strata": {
+            "faint_p0_p50": {
+              "direct_positive_count": 782996,
+              "positive_overlap_count": 782996,
+              "unweighted_median_dex": -0.004982832656675797,
+              "unweighted_p95_absolute_dex": 0.552691224618084
+            },
+            "intermediate_p50_p90": {
+              "direct_positive_count": 626396,
+              "positive_overlap_count": 626396,
+              "unweighted_median_dex": -0.0006234234029471404,
+              "unweighted_p95_absolute_dex": 0.0588233708091777
+            },
+            "bright_p90_p100": {
+              "direct_positive_count": 156600,
+              "positive_overlap_count": 156600,
+              "unweighted_median_dex": 0.0011500468113317627,
+              "unweighted_p95_absolute_dex": 0.040345460356072387
+            }
+          }
+        },
+        "mapL13CO": {
+          "positive_overlap_pixel_count": 1566303,
+          "direct_weighted_median_bias_dex": 0.0017902081731405745,
+          "direct_weighted_p95_absolute_error_dex": 0.06314069083080988,
+          "integrated_bias_dex": 0.004622100963001771,
+          "direct_positive_lookup_nonpositive_count": 0,
+          "direct_positive_pixel_percentile_thresholds": [
+            3.6397469400860914e+19,
+            5.902573124556014e+25
+          ],
+          "brightness_strata": {
+            "faint_p0_p50": {
+              "direct_positive_count": 783152,
+              "positive_overlap_count": 783152,
+              "unweighted_median_dex": -0.005182774724224986,
+              "unweighted_p95_absolute_dex": 0.4908290228701436
+            },
+            "intermediate_p50_p90": {
+              "direct_positive_count": 626520,
+              "positive_overlap_count": 626520,
+              "unweighted_median_dex": -0.002081621491856,
+              "unweighted_p95_absolute_dex": 0.09666025188618081
+            },
+            "bright_p90_p100": {
+              "direct_positive_count": 156631,
+              "positive_overlap_count": 156631,
+              "unweighted_median_dex": 0.0015137151663547586,
+              "unweighted_p95_absolute_dex": 0.06795897489084793
+            }
+          }
+        },
+        "mapLC18O": {
+          "positive_overlap_pixel_count": 1566303,
+          "direct_weighted_median_bias_dex": -0.0002626514681858885,
+          "direct_weighted_p95_absolute_error_dex": 0.05946334154845283,
+          "integrated_bias_dex": 0.0013203435662216868,
+          "direct_positive_lookup_nonpositive_count": 0,
+          "direct_positive_pixel_percentile_thresholds": [
+            2.1183397695050614e+18,
+            1.858178337695786e+24
+          ],
+          "brightness_strata": {
+            "faint_p0_p50": {
+              "direct_positive_count": 783152,
+              "positive_overlap_count": 783152,
+              "unweighted_median_dex": -0.004576572970169618,
+              "unweighted_p95_absolute_dex": 0.485119690283341
+            },
+            "intermediate_p50_p90": {
+              "direct_positive_count": 626520,
+              "positive_overlap_count": 626520,
+              "unweighted_median_dex": -0.0018643584327518296,
+              "unweighted_p95_absolute_dex": 0.07072755417538593
+            },
+            "bright_p90_p100": {
+              "direct_positive_count": 156631,
+              "positive_overlap_count": 156631,
+              "unweighted_median_dex": 0.0024912953406424645,
+              "unweighted_p95_absolute_dex": 0.09448526298375856
+            }
+          }
+        }
+      },
+      "radial": {
+        "edges_kpc": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          7.0,
+          8.0
+        ],
+        "centers_kpc": [
+          0.5,
+          1.5,
+          2.5,
+          3.5,
+          4.5,
+          5.5,
+          6.5,
+          7.5
+        ],
+        "line_bias_dex": {
+          "mapLCO": [
+            -0.04878359005681128,
+            0.0008249808832965806,
+            0.002577235085488968,
+            0.00915691911899173,
+            0.008607389535566145,
+            0.007385835447363272,
+            0.008046070320996662,
+            0.0028721356579876193
+          ],
+          "mapL13CO": [
+            -0.042637569790176556,
+            0.011497416166542205,
+            -0.00029316260634320256,
+            0.011070143142199281,
+            0.010216821118760626,
+            0.0017354704807325744,
+            0.005979894504802546,
+            0.002928694214475894
+          ],
+          "mapLC18O": [
+            -0.05446320060700696,
+            0.004317572316857429,
+            -0.00910710411338743,
+            0.003969806087968141,
+            0.012492922274806691,
+            -0.0020422886207779704,
+            0.006800840466855879,
+            0.007502430662131336
+          ]
+        },
+        "ratio_13CO_over_C18O_bias_dex": [
+          0.011825630816830435,
+          0.007179843849684811,
+          0.008813941507044275,
+          0.0071003370542311005,
+          -0.0022761011560460797,
+          0.0037777591015105334,
+          -0.0008209459620533102,
+          -0.004573736447655441
+        ],
+        "maximum_absolute_ratio_bias_dex": 0.011825630816830435,
+        "maximum_absolute_line_bias_dex": {
+          "mapLCO": 0.04878359005681128,
+          "mapL13CO": 0.042637569790176556,
+          "mapLC18O": 0.05446320060700696
+        }
+      },
+      "ratio_map": {
+        "positive_overlap_count": 1566303,
+        "unweighted_median_dex": -0.0008987466132550222,
+        "unweighted_p95_absolute_dex": 0.1681868268065994,
+        "note": "Energy-luminosity ratio; its lookup/direct residual equals that in brightness-temperature intensity ratio. No detection cut."
+      }
+    }
+  },
+  "validation": {
+    "passed": false,
+    "failures": [
+      "20_pc_pixels:mapLCO:radial_bias",
+      "20_pc_pixels:mapLC18O:radial_bias",
+      "125_pc_beam:mapLC18O:radial_bias"
+    ]
+  }
+}
